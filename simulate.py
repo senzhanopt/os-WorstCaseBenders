@@ -16,8 +16,8 @@ c_inv = 75*(annual_cost(15) + 0.005)
 
 C1 = np.sqrt(c_pv**2+c_es**2+c_inv**2)
 m = 3
-beta_up = 2389.4
-beta_down =- 477.2
+beta_up = 2377
+beta_down =- 701
 delta = 1
 d_max = 75.12
 C2 = np.sqrt(m) * (beta_up-beta_down)/delta
